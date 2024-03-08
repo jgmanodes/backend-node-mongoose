@@ -31,9 +31,9 @@ Before you begin, ensure you have the following installed:
     - Create a `.env` file in the root directory and add the following:
 
 ```
-PORT=3000
-MONGODB_URI=mongodb://localhost:27017/auth
-JWT_SECRET=your-secret-key
+PORT=
+MONGODB_URI=
+JWT_SECRET=
 ```
 
 Replace your-secret-key with a secure, random string for JWT signing.
